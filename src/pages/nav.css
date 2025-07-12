@@ -1,0 +1,45 @@
+.nvmain {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nv1 {
+    height: 100%;
+    display: flex;
+    color: rgb(211, 31, 145);
+    align-items: center;
+    /* border: 2px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nv2 {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+.nv3 {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid greenyellow ; */
+}

@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.hd1 {
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 30px;
+    background-image: url("./tshirt.jpg");
+    background-size: 100% 100%;
+}
+
+.hd2 {
+    height: 100%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    flex-wrap: wrap
+}
+
+input {
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    outline: none;
+}
+
+.hd21 {
+    height: 45%;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+    font-size: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.himg {
+    height: 70%;
+    width: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
+.himg img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
+.himg img {
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.htxt {
+    height: 30%;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hd3 {
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.916);
+    display: flex;
+    justify-content: end;
+}
+
+.hd301 {
+    height: 80%;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.849);
+    /* border: 2px solid wheat; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hd301 button{
+    color: rgb(233, 23, 156);
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+span{
+    color: rgb(233, 23, 156);
+}
+
+.hd30 {
+    height: 100%;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.768);
+    /* border: 2px solid wheat; */
+    align-items: center;
+    justify-content: space-around;
+    display: flex                                                                                                                   ;
+}
+
+.hd31 {
+    height: 60%;
+    width: 20%;
+    border-left: 2px solid rgba(255, 255, 255, 0.335);
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex                                                                                                                   ;
+}
